@@ -37,6 +37,12 @@ export default function About() {
 
   const experiences = [
     {
+      role: "Founder",
+      company: "Monadelta Productions",
+      period: "2021 - Present",
+      description: "Founded and leading Monadelta Productions (monadelta.me), specializing in creative content production and innovative media solutions.",
+    },
+    {
       role: "Senior Video Editor",
       company: "Creative Studios",
       period: "2021 - Present",
