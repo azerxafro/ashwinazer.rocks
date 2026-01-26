@@ -1,28 +1,21 @@
-import Hero from "./components/hero"
-import Navbar from "./components/navbar"
-import About from "./components/about"
-import Gallery from "./components/gallery"
-import Services from "./components/services"
-import Projects from "./components/projects"
-import Music from "./components/music"
-import Testimonials from "./components/testimonials"
-import Contact from "./components/contact"
-import Footer from "./components/footer"
+"use client"
 
-export default function Page() {
+import { Hero } from "@/components/hero"
+import { Music } from "@/components/sections/music"
+import { About } from "@/components/sections/about"
+import { Tour } from "@/components/sections/tour"
+import { Contact } from "@/components/sections/contact"
+import { Leva } from "leva"
+
+export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
-      <Navbar />
+    <>
       <Hero />
-      <About />
-      <Projects />
       <Music />
-      <Services />
-      <Gallery />
-      <Testimonials />
+      <About />
+      <Tour />
       <Contact />
-      <Footer />
-    </main>
+      <Leva hidden />
+    </>
   )
 }
-
