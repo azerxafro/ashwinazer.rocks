@@ -52,6 +52,15 @@ export const GL = ({ hovering }: { hovering: boolean }) => {
           near: 0.01,
           far: 300,
         }}
+        dpr={[1, 1.5]} // Cap pixel ratio for performance
+        performance={{ min: 0.5 }} // Allow frame dropping under load
+        gl={{
+          antialias: false, // Disable for performance
+          alpha: false, // Disable for performance
+          powerPreference: "high-performance",
+          stencil: false,
+          depth: true,
+        }}
       >
         {/* <Perf position="top-left" /> */}
         <color attach="background" args={["#000"]} />

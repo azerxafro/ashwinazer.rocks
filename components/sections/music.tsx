@@ -75,7 +75,7 @@ export function Music() {
   const ashwinPlatforms = [
     { name: "Spotify", url: "https://open.spotify.com/artist/4qSmbN4VuMODJnTNxAFvti" },
     { name: "Apple Music", url: "https://music.apple.com/in/artist/ashwin-azer/1526462423" },
-    { name: "JioSaavn", url: "https://www.jiosaavn.com/artist/ashwin-azer/R,u7V5F4o,U_" },
+    { name: "JioSaavn", url: "https://www.jiosaavn.com/artist/ashwin-azer-songs/S3ZwUi13P50_" },
   ]
 
   const lucidAshPlatforms = [
