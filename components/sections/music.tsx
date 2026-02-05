@@ -8,25 +8,25 @@ export function Music() {
   const ashwinAlbums = [
     {
       title: "DESTINY",
-      year: "2024",
+      year: "2025",
       type: "Album",
       collaborators: "with Wa'Cali, Lucid ASH",
     },
     {
       title: "DEMON SMILE",
-      year: "2024",
+      year: "2025",
       type: "Album",
       collaborators: "with Wa'Cali",
     },
     {
-      title: "Pikachu (NEW ERA)",
-      year: "2023",
+      title: "Pikachu",
+      year: "2020",
       type: "Single",
       collaborators: "with Saileshxafro",
     },
     {
       title: "VALJAM (To Pondy Streets)",
-      year: "2023",
+      year: "2024",
       type: "Single",
       collaborators: "with Wa'Cali, Iffath",
     },
@@ -38,7 +38,7 @@ export function Music() {
     },
     {
       title: "BAD BOY",
-      year: "2022",
+      year: "2024",
       type: "Single",
       collaborators: "",
     },
