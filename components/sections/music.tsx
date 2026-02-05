@@ -100,10 +100,12 @@ export function Music() {
         {/* Spotify Embed - Ashwin Azer */}
         <div id="listen" className="mb-16 overflow-hidden rounded-xl">
           <iframe
-            src="https://open.spotify.com/embed/artist/4qSmbN4VuMODJnTNxAFvti?utm_source=generator&theme=0"
+            style={{ borderRadius: "12px" }}
+            src="https://open.spotify.com/embed/album/4eipwaoJfbKEuwdZdaORQT?utm_source=generator"
             width="100%"
             height="352"
             frameBorder="0"
+            allowFullScreen
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
             className="rounded-xl"
