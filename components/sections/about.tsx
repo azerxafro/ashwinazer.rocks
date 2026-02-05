@@ -25,9 +25,8 @@ export function About() {
           </p>
 
           <p>
-            As the founder of <strong>Monadelta Productions</strong>, Ashwin is not just an artist but a creative force 
-            shaping the independent music scene. His music captures the streets, the culture, and the raw emotion of 
-            everyday life.
+            Ashwin is not just an artist but a creative force shaping the independent music scene. His music captures 
+            the streets, the culture, and the raw emotion of everyday life.
           </p>
 
           <p className="text-foreground/60 italic">
