@@ -11,11 +11,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Ashwin Azer | Music Artist - Hip-Hop, Rap & Indie",
-  description: "Official website of Ashwin Azer (Lucid ASH), independent music artist from Coimbatore, India. Stream albums like DESTINY, DEMON SMILE, Pikachu on Spotify, Apple Music. Founder of Monadelta Productions.",
-  keywords: ["Ashwin Azer", "Lucid ASH", "Hip-Hop", "Rap", "Indie", "Indian Music Artist", "Coimbatore", "Tamil Rapper", "Monadelta Productions", "DESTINY album", "DEMON SMILE", "Pikachu NEW ERA", "Wa'Cali", "South Indian Hip-Hop"],
+  description: "Official website of Ashwin Azer (Lucid ASH), independent music artist from Coimbatore, India. Stream albums like DESTINY, DEMON SMILE, Pikachu on Spotify, Apple Music.",
+  keywords: ["Ashwin Azer", "Lucid ASH", "Hip-Hop", "Rap", "Indie", "Indian Music Artist", "Coimbatore", "Tamil Rapper", "DESTINY album", "DEMON SMILE", "Pikachu NEW ERA", "Wa'Cali", "South Indian Hip-Hop"],
   authors: [{ name: "Ashwin Azer", url: "https://ashwinazer.rocks" }],
   creator: "Ashwin Azer",
-  publisher: "Monadelta Productions",
+  publisher: "Ashwin Azer",
   generator: "Next.js",
   applicationName: "Ashwin Azer Official",
   referrer: "origin-when-cross-origin",
@@ -89,8 +89,7 @@ const jsonLd = {
     "https://music.apple.com/in/artist/ashwin-azer/1526462423",
     "https://www.youtube.com/c/ashwinazer",
     "https://www.instagram.com/azerxafro",
-    "https://musicbrainz.org/artist/b43aaeda-d79e-4711-b242-feebf44c76fb",
-    "https://monadelta.me"
+    "https://musicbrainz.org/artist/b43aaeda-d79e-4711-b242-feebf44c76fb"
   ],
   "member": {
     "@type": "Person",
