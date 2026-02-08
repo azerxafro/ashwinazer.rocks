@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Ashwin Azer | Music Artist - Hip-Hop, Rap & Indie",
   description: "Official website of Ashwin Azer (Lucid ASH), independent music artist from Coimbatore, India. Stream albums like DESTINY, DEMON SMILE, Pikachu on Spotify, Apple Music.",
   keywords: ["Ashwin Azer", "Lucid ASH", "Hip-Hop", "Rap", "Indie", "Indian Music Artist", "Coimbatore", "Tamil Rapper", "DESTINY album", "DEMON SMILE", "Pikachu NEW ERA", "Wa'Cali", "South Indian Hip-Hop"],
-  authors: [{ name: "Ashwin Azer", url: "https://ashwinazer.rocks" }],
+  authors: [{ name: "Ashwin Azer", url: "https://ashwinazer.me" }],
   creator: "Ashwin Azer",
   publisher: "Ashwin Azer",
   generator: "Next.js",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ashwinazer.rocks",
+    url: "https://ashwinazer.me",
     siteName: "Ashwin Azer",
     title: "Ashwin Azer | Music Artist - Hip-Hop, Rap & Indie",
     description: "Stream music by Ashwin Azer & Lucid ASH. Albums: DESTINY, DEMON SMILE, Pikachu. Independent artist from India blending Hip-Hop, Rap & Indie.",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
     apple: "/favicon-custom.png",
   },
   alternates: {
-    canonical: "https://ashwinazer.rocks",
+    canonical: "https://ashwinazer.me",
   },
   category: "music",
 }
@@ -77,7 +77,7 @@ const jsonLd = {
   "@type": "MusicGroup",
   "name": "Ashwin Azer",
   "alternateName": ["Lucid ASH", "azerxafro"],
-  "url": "https://ashwinazer.rocks",
+  "url": "https://ashwinazer.me",
   "description": "Independent Hip-Hop, Rap & Indie music artist from Coimbatore, India",
   "genre": ["Hip-Hop", "Rap", "Indie"],
   "foundingLocation": {
@@ -125,7 +125,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="/favicon-custom.png" />
         <link rel="apple-touch-icon" href="/favicon-custom.png" />
-        <link rel="canonical" href="https://ashwinazer.rocks" />
+        <link rel="canonical" href="https://ashwinazer.me" />
         <meta name="theme-color" content="#000000" />
         <script
           type="application/ld+json"
