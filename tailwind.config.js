@@ -60,8 +60,8 @@ module.exports = {
           heading: "hsl(var(--text-heading))",
         },
         gradient: {
-          from: "#8A2BE2", // Changed to BlueViolet
-          to: "#9370DB", // Changed to MediumPurple
+          from: "#8A2BE2", // BlueViolet
+          to: "#9370DB", // MediumPurple
         },
       },
       borderRadius: {
