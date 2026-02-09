@@ -1,8 +1,5 @@
 import "@/styles/globals.css"
-import { Inter } from "next/font/google"
 import type React from "react"
-
-const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Ashwin Azer - Video Editor & Content Creator",
@@ -28,7 +25,7 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/favicon-custom.png" />
         <link rel="apple-touch-icon" href="/favicon-custom.png" />
       </head>
-      <body className={inter.className}>{children}</body>
+      <body className="font-sans">{children}</body>
     </html>
   )
 }
